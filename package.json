@@ -1,29 +1,29 @@
 {
-  "name": "vueture-cli",
-  "version": "0.0.0",
-  "description": "Command line tool for Vueture",
-  "main": "./bin/vueture",
+  "name": "vueli",
+  "version": "0.0.1",
+  "description": "Command line tool for VueJS",
+  "main": "./bin/vueli",
   "bin": {
-    "vueture": "./bin/vueture"
+    "vueli": "./bin/vueli"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vueture/vueture-cli.git"
+    "url": "git+https://github.com/altinselimi/vueli-cli.git"
   },
   "keywords": [
-    "vueture",
     "vue",
+    "vueli",
     "cli",
     "javascript",
     "frontend"
   ],
-  "author": "Vivid Websolutions <info@vivid-websolutions.nl>",
+  "author": "Altin Selimi",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/vueture/vueture-cli/issues"
+    "url": "https://github.com/altinselimi/vueli/issues"
   },
   "dependencies": {
     "async": "^2.0.1",
@@ -39,5 +39,5 @@
     "path": "^0.12.7",
     "shelljs": "^0.7.4"
   },
-  "homepage": "https://github.com/vueture/vueture-cli#readme"
+  "homepage": "https://github.com/altinselimi/vueli-cli#readme"
 }
