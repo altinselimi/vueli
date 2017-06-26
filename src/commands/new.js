@@ -30,7 +30,7 @@ var program = {
     var spinner = ora('Downloading Vueture...');
     spinner.start();
 
-    download('vueture/vueture', this.name, { clone: true }, function (err) {
+    download('/altinselimi/vueture', this.name, { clone: false }, function (err) {
       spinner.stop();
 
       if (err) {

@@ -24,7 +24,7 @@ var program = {
       type: 'page',
       templateDirectory: 'page',
       output: {
-        directory: 'src/app/pages/',
+        directory: 'src/pages/',
       },
       name: name,
       isSplit: options ? options.split : false,

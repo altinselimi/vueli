@@ -24,7 +24,7 @@ var program = {
       type: 'layout',
       templateDirectory: 'layout',
       output: {
-        directory: 'src/app/layouts/',
+        directory: 'src/layouts/',
       },
       name: name,
       isSplit: options ? options.split : false,
