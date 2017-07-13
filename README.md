@@ -1,9 +1,9 @@
 # vueli-cli
-> CLI tool for vueli
+> CLI tool for VueJS
 
 ## Installation ##
 ``` bash
-$ npm install -g vueli-cli
+$ npm install -g vueli
 ```
 
 ## Usage ##

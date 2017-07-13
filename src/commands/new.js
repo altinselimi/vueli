@@ -9,7 +9,7 @@ require('shelljs/global');
 
 commander
   .command('new [app-name]')
-  .description('initialize a fresh Vueture application')
+  .description('initialize a fresh VueJS application')
   .action(function (name) {
     program.action(name);
   })
@@ -27,7 +27,7 @@ var program = {
 
     this.name = name;
 
-    var spinner = ora('Downloading Vueture...');
+    var spinner = ora('Downloading Vue Project...');
     spinner.start();
 
     download('/altinselimi/vueture', this.name, { clone: false }, function (err) {
@@ -54,8 +54,8 @@ var program = {
   help: function () {
     log('  Examples:');
     log();
-    log('    # will initialize a fresh Vueture application', 'muted');
-    log('    $ vueture new app-name');
+    log('    # will initialize a fresh Vue application', 'muted');
+    log('    $ vueli new app-name');
     log();
   },
   isValid: function (name) {
