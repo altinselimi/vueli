@@ -1,4 +1,4 @@
-<style lang="sass"></style>
+<style lang="scss" scoped></style>
 <template>
   <div>
     {{ name }} component is ready for use!
